@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>パスワード入力ページ</title>
+</head>
+<body>
+   <script type="text/javascript">
+   function gate() {
+      var UserInput = prompt("パスワードを入力して下さい:","");
+      location.href = UserInput + ".html";
+   }
+    </script>
+    <p>下のボタンをクリックして、ダイアログボックスにパスワードを入力してください。</p>
+    <div>
+    <input type="button" value="パスワードを入力して秘密のページへアクセスする" onclick="gate();">
+    </div>
+   
+    
+</body>
+</html>
