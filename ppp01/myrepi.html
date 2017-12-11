@@ -8,14 +8,125 @@
 
 <body>
     <style type="text/css">
+        body{
+            font-family: "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+            font-size: 75%;
+            color: #666666;
+        }
+        p{
+            display: block;
+            -webkit-margin-before: 1em;
+            -webkit-margin-after: 1em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+        }
         .clearfix:before, .clearfix:after{
             content: "";
             display: table;
         }
-        .clearfix:after{
+        .clearfix:after {
             clear: both;
         }
         /*For IE 6/7 only*/
+        .clearfix {
+            *zoom: 1;
+        }
+        .item-details *{
+            margin: 0;
+            padding: 0;
+        }
+        .item-details {
+            width: 740px;
+        }
+        .item-details table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        .item-details img {
+            margin: 0;
+            padding: 0;
+            border-style: none;
+        }
+        .item-details .column a {
+            float: left;
+        }
+        .item-details .paB19 {
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+        .item-details .paB20 {
+            padding-top:  30px;
+            padding-bottom: 0;
+        }
+        .item-details .paB21 {
+            padding: 30px 0 0 auto;
+        }
+        .item-details .paB22 {
+            padding-bottom: 0px;
+            padding-left: 85px;
+        }
+        .item-details .section {
+            padding: 0px;
+        }
+        .item-details .products {
+            width: 740px;
+            overflow: hidden;
+            margin: 0;
+        }
+        .item-details .products ul {
+            list-style: none;
+            width: 720px;
+            padding-left: 15px;
+        }
+        .item-details .products ul li {
+            float: left;
+            width: 170px;
+            margin: 30px 10px 0 0;
+        }
+        .item-details .products ul li img {
+            display: block;
+        }
+        
+        .item-details .products ul li a {
+            min-height: 70px;
+            line-height: 1.4;
+            margin: 8px 0 0 0;
+            font-size: 14px;
+            color: #000;
+            text-decoration: none;
+        }
+        
+        .item-details .text {
+            overflow: hidden;
+            width: 170px;
+            height: 6.0em;
+            margin: 10px 0 0 0;
+            list-style: none;
+        }
+        img{
+            margin: 0;
+            padding: 0;
+            vertical-align: bottom;
+        }
+        .item-details .menu {
+            padding-bottom: 20px;
+        }
+        .gototop {
+            padding: 20 20;
+            text-align: right;
+        }
+        .gototop a {
+            color: #000;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .item-details a:hover img {
+            opacity: 0.7;
+            filter: alpha(opacity=70);
+            -ms-filter: "alpha(opacity=70)";
+            *zoom: 1;
+        }
+        
     </style>
     <div class="item-details">
         <div class="section feature">
@@ -35,18 +146,149 @@
             </table>
         </div>
         <div class="section feature">
-
+            <img src="./img/detail_img_11_2.jpg" id="treatment2">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="paB20"></td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-        <div class="products"></div>
-        <div class="products"></div>
+        <div class="products">
+            <ul class="clearfix">
+                <li>
+                    <a href="https://item.rakuten.co.jp/myrepi-2/4902430763387/">
+                        <img src="./img/milk_shouhin.jpg" width="170" height="170">
+                        <p class="text">パンテーン 濃厚トリートメント ミルク</p>
+                        <img src="./img/pantene_btn.jpg" width="170">
+                    </a>
+                </li>
+            </ul>
+            <table>
+                <tbody>
+                  <tr>
+                      <td class="paB20">
+                          <img src="./img/milk.jpg">
+                      </td>
+                  </tr>  
+                </tbody>
+            </table>
+            <ul class="clearfix">
+                <li>
+                    <a href="https://item.rakuten.co.jp/myrepi-2/4902430763288/">
+                        <img src="./img/mist_shouhin.jpg" width="170" height="170">
+                        <p class="text">パンテーン 濃厚トリートメント ミスト</p>
+                        <img src="./img/pantene_btn.jpg" width="170">
+                    </a>
+                </li>
+            </ul>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="paB20">
+                            <img src="./img/mist.jpg">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <ul class="clearfix">
+                <li>
+                    <a href="https://item.rakuten.co.jp/myrepi-2/4902430750257/">
+                        <img src="./img/oil_shouhin.jpg" width="170" height="170">
+                        <p class="text">パンテーン 濃厚トリートメント オイル</p>
+                        <img src="./img/pantene_btn.jpg" width="170">
+                    </a>
+                </li>
+            </ul>
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="paB20">
+                            <img src="./img/oil.jpg">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="products">
+            <ul class="clearfix">
+                <li>
+                    <a href="#">
+                        <img src="./img/4902430253277.jpg" width="170" height="170">
+                        <p class="text">パンテーン 濃厚トリートメントプログラム 15g×5</p>
+                        <img src="./img/pantene_btn.jpg" width="170">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/4902430568739.jpg" width="170" height="170">
+                        <p class="text">パンテーン 集中補修オイル 30ml</p>
+                        <img src="./img/pantene_btn.jpg" width="170">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/4902430680677.jpg" width="170" height="170">
+                        <p class="text">パンテーン トリートメント ディープリペアミルク 毛先まで傷んだ髪用</p>
+                        <img src="./img/pantene_btn.jpg" width="170">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/4902430253277.jpg" width="170" height="170">
+                        <p class="text">パンテーン トリートメントウォーター 毛先まで傷んだ髪用</p>
+                        <img src="./img/pantene_btn.jpg" width="170">
+                    </a>
+                </li>
+            </ul>
+        </div>
         <div class="section feature">
-
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="paB20">
+                            <img src="./img/detail_img_11.jpg" id="treatment1">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-        <div class="products"></div>
+        <div class="products">
+            <ul class="clearfix">
+                <li>
+                    <a href="#">
+                        <img src="./img/4902430680660.jpg" width="170" height="170">
+                        <p class="text">パンテーン トリートメント ディープリペアミルク ボリュームのない髪用</p>
+                        <img src="./img/pantene_btn.jpg" width="170">
+                    </a>
+                </li>
+            </ul>
+        </div>
         <div class="section feature">
-
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="paB20">
+                            <img src="./img/pantene_detail_kv.jpg" width="740">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-        <div class="products"></div>
+        <div class="products">
+            <ul class="clearfix">
+                <li>
+                    <a href="#">
+                        <div class="img" align="center">
+                            <img src="./img/4902430705929.jpg" height="170">
+                            <p class="text">Sale☆パンテーン エクストラダメージケア シャンプー つめかえ超特大サイズ</p>
+                            <img src="./img/pantene_btn.jpg" width="170">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
 </body>
 
